@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100%;
+}
+
+/* form styling */
+form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.input_group{
+    position: relative;
+    width: 100%;
+}
+.input_group img{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+}
+/* .input_group input {
+    border:1px solid rgb(167, 166, 166) ;
+    width: 30%;
+    height: 7vh;
+    padding: 10px 32px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: capitalize;
+} */
+/* styling of button */
+/* .btn-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+} */
+/* .btn {
+    border:1px solid rgb(167, 166, 166) ;
+    width: 15%;
+    height: 7vh;
+    padding: 10px 32px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: capitalize;
+} */
+.secondary {
+    background: #EDAD00;
+}
+.secondary :hover {
+    background: #D78F00;
+}
