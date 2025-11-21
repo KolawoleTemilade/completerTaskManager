@@ -1,10 +1,11 @@
 .box_div{
-    /* min-height: 100vh; */
-    /* width: 50vw; */
+    min-height: 15vh;
+    width: 50vw;
     margin: 0 auto;
-    /* border: 1px solid; */
-    /* border-radius: 20px; */
-    box-shadow: rgb(rgb(40, 39, 39));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: rgb(rgb(40, 39, 39)); */
     /* padding: 30px; */
 }
 .logo_container{

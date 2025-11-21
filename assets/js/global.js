@@ -1,27 +1,4 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Find all elements with the data-import attribute
-//     const importElements = document.querySelectorAll('[data-import]');
 
-//     importElements.forEach(element => {
-//         const filePath = element.getAttribute('data-import');
-
-//         // Use the Fetch API to get the content of the file
-//         fetch(filePath)
-//             .then(response => {
-//                 if (!response.ok) {
-//                     throw new Error(`HTTP error! status: ${response.status}`);
-//                 }
-//                 return response.text();
-//             })
-//             .then(html => {
-//                 // Insert the fetched HTML content into the element
-//                 element.innerHTML = html;
-//             })
-//             .catch(error => {
-//                 console.error('Error loading component:', filePath, error);
-//             });
-//     });
-// });
 function loadComponentScripts(element) {
   const scripts = element.querySelectorAll("script");
   for (let script of scripts) {
