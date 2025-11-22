@@ -2,6 +2,11 @@
     width: 40%;
     background: #000;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .user_profile{
     display: flex;
     justify-content: space-between;
@@ -18,4 +23,9 @@
 .user_details{
     display: flex;
     flex-direction: column;
+}
+nav ul li {
+text-transform: none
+;
+text-decoration: none;
 }
